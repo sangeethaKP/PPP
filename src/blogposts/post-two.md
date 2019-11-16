@@ -1,5 +1,5 @@
 ---
-path: "debugging-101"
+path: "/post-two"
 date: "2019-11-16"
 title: "Debugging 101"
 author: "Sangeetha KP"

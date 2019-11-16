@@ -1,7 +1,7 @@
 ---
-path: "building-portfolio"
+path: "/post-one"
 date: "2019-11-16"
-title: "Building Your Portfolio"
+title: "Building Your Dream Portfolio"
 author: "Sangeetha KP"
 ---
 
