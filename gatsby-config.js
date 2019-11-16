@@ -5,6 +5,14 @@ module.exports = {
     author: `@gatsbyjs`
   },
   plugins: [
+    `gatsby-plugin-catch-links`,
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/blogposts`,
+        name: 'blogposts'
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -14,6 +22,7 @@ module.exports = {
       }
     },
     `gatsby-transformer-sharp`,
+    'gatsby-transformer-remark',
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
